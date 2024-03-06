@@ -1,0 +1,24 @@
+{
+  "name": "craftui",
+  "version": "0.0.1",
+  "description": "UI components for React projects.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Yogendra Rana",
+    "email": "yogendrarana.mail@gmail.com",
+    "website": "https://yogendrarana.com.np",
+    "twitter": "https://twitter.com/yoogendra_rana"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:www": "cd apps/www && npm run dev"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
